@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+@font-face {
+    font-family: "Amore Elegant";
+    src: url(font/amore.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #A60F2B;
+    --fundo: rgba(102, 56, 56, 0.295);
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+h1{
+    font-family: "Bigelow Rules";
+    font-size: 5em;
+    color: #ff78cbbd;
+    margin-left: 0.8em;
+    margin-top: 0.1em;
+}
+h1 > a{
+    text-decoration: none;
+    color: #ff78cbbd;
+}
+h5{
+    box-shadow: 0px 0px 8px black;
+}
+
+header{
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    background-color: #180418;
+}
+
+nav{
+text-align: right;
+margin-right: 20px;
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ff78cbbd;
+    margin-right: 50px;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: #3f1a3f;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #180418;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(rgba(0, 0, 0, 0));
+}
+
+div{
+    padding: 30px;
+    width: 500px;
+}
+
+div.quadro1{
+margin-left: 60px;
+margin-top: -20px;
+}
+
+div.quadro1 > h5{
+    width: 210px;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+div > p{
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+div > h5{
+    font-size: 2em;
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Amore Elegant";
+    width: 700px;
+    margin-left: -90px;
+}
+
+img.a{
+    max-width: 400px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+
+div#quadro2{
+margin-left: 950px;
+margin-top: -570px;
+}
+div#quadro2 > p{
+    margin-left: -60px;
+    margin-top: -12px;
+}
+
+div#quadro2 > h5{
+    margin-left: 0px;
+    width: 278px;
+    margin-top: -3px;
+}
+
+
+div#quadro3 img{
+    margin-left: 100px;
+}
+
+div#quadro3 > h5{
+    margin-left: 100px;
+    margin-top: -6px;
+    width: 228px;
+}
+
+div#quadro3 > p{
+    margin-left: 100px;
+    margin-top: -12px;
+}
+
+div#quadro4{
+    margin-left: 900px;
+    margin-top: -640px;
+    width: 600px
+}
+
+div#quadro4 > h5{
+    margin-left: 0px;
+    width: 400px;
+    margin-top: -2px;
+}
+div#quadro4 > p{
+    margin-left: 100px;
+    margin-top: -14px;
+}
+
+div#quadro5 > h5{
+    width: 300px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+div#quadro5{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+div#quadro5 > p{
+    margin-top: -12px;
+    margin-left: 20px;
+}
+
+div#quadro6{
+    width: 650px;
+    margin-left: 900px;
+    margin-top: -670px;
+}
+div#quadro6 > h5{
+    width: 208px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+div#quadro6 > p{
+    margin-left: -10px;
+    text-align: left;
+     margin-top: -10px;
+}
