@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+@font-face {
+    font-family: "Amore Elegant";
+    src: url(font/amore.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #A60F2B;
+    --fundo: rgba(102, 56, 56, 0.295);
+}
+
+body{
+    background-color: var(--fundo);
+}
+
+h1{
+    font-family: "Bigelow Rules";
+    font-size: 5em;
+    color: #ff78cbbd;
+    margin-left: 0.8em;
+    margin-top: 0.1em;
+}
+
+h1 > a{
+    text-decoration: none;
+    color: #ff78cbbd;
+}
+h5{
+    box-shadow: 0px 0px 8px black;
+}
+
+header{
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    background-color: #180418;
+}
+
+nav{
+text-align: right;
+margin-right: 20px;
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ff78cbbd;
+    margin-right: 50px;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav > a:hover{
+    background-color: #3f1a3f;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #180418;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(rgba(0, 0, 0, 0));
+}
+
+div{
+    padding: 30px;
+    width: 500px;
+}
+
+div > p{
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+div > h5{
+    font-size: 2em;
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-family: "Amore Elegant";
+    width: 700px;
+}
+
+img.a{
+    max-width: 700px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+img{
+    max-width: 700px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+
+div#quadro1 h5{
+    margin-top: -5px;
+}
+
+div#quadro2{
+margin-left: 900px;
+margin-top: -635px;
+}
+div#quadro2 > p{
+    margin-top: -12px;
+}
+
+div#quadro2 > h5{
+    margin-left: 0px;
+    width: 633px;
+    margin-top: -3px;
+}
+
+div#quadro3{
+    width: 600px;
+    margin-top: -220px;
+}
+
+div#quadro3 > h5{
+    margin-top: -6px;
+}
+
+div#quadro3 > p{
+    margin-top: -12px;
+}
+
+div#quadro4{
+    margin-left: 900px;
+    margin-top: -500px;
+    width: 600px
+}
+
+div#quadro4 > h5{
+    margin-left: 0px;
+    width: 680px;
+    margin-top: -2px;
+}
+div#quadro4 > p{
+    margin-top: -14px;
+}
+
+div#quadro5{
+    margin-top: -280px;
+}
+
+div#quadro5 > h5{
+    width: 700px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+
+div#quadro5 > p{
+    margin-top: -12px;
+    margin-left: 20px;
+}
+
+div#quadro6{
+    width: 650px;
+    margin-left: 900px;
+    margin-top: -440px;
+}
+div#quadro6 > h5{
+    width: 555px;
+    margin-left: 0px;
+    margin-top: -4px;
+}
+div#quadro6 > p{
+    margin-left: -10px;
+    text-align: left;
+     margin-top: -10px;
+}
+
+/* Para celulares: */
+@media screen and (max-width: 460px){
+
+    header{
+        width: 100%;
+    }
+
+img.a{
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+}
+
+div{
+        width: 300px;
+}
+div h5{
+        width: 300px;
+        margin-left: 0px;
+}
+
+div#quadro1{
+    margin: auto;
+}
+div#quadro2{
+        margin-left: 0px;
+        margin-top: 0px;
+}
+div#quadro2 p{
+    margin-left: 20px;
+}
+div#quadro2 h5{
+    width: 300px;
+}
+
+div#quadro3{
+    width: 300px;
+    margin-top: 0px;
+}
+
+div#quadro3 p{
+    margin-left: 10px;
+    width: 290px;
+}
+
+div#quadro4{
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+div#quadro4 h5{
+    width: 300px;
+}
+div#quadro4 p{
+    margin-left: 0px;
+}
+
+div#quadro5{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+div#quadro5 h5{
+    width: 300px;
+}
+div#quadro5 p{
+    margin-left: 0px;
+}
+div#quadro6{
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+div#quadro6 h5{
+    width: 300px;
+}
+div#quadro6 p{
+    margin-left: 0px;
+}
+
+}
+
+
+/* Para tablets: */
+@media screen and (min-width: 460px) and (max-width: 1024px){
+header{
+            width: 100%;
+}
+
+img.a{
+        max-width: 700px;
+        max-height: 600px;
+        width: auto;
+        height: auto;
+}
+
+div{
+    margin: auto;
+        width: 700px;
+}
+
+div#quadro1 > h5{
+    margin-left: 0px;
+}
+
+div#quadro2{
+        margin: auto;
+        margin-top: 0px;
+}
+div#quadro2 p{
+    margin-left: 20px;
+}
+div#quadro2 h5{
+    width: 700px;
+}
+
+div#quadro3{
+    width: 700px;
+    margin: auto;
+}
+
+div#quadro3 p{
+    margin-left: 10px;
+    
+}
+
+div#quadro4{
+    width: 700px;
+    margin-top: 0px;
+    margin: auto;
+}
+div#quadro4 h5{
+    width: 700px;
+}
+div#quadro4 p{
+    margin-left: 0px;
+}
+
+div#quadro5{
+    margin-top: 0px;
+    margin: auto;
+}
+div#quadro5 h5{
+    width: 700px;
+}
+div#quadro5 p{
+    margin-left: 0px;
+}
+div#quadro6{
+    width: 700px;
+    margin-top: 0px;
+    margin: auto;
+}
+div#quadro6 h5{
+    width: 700px;
+}
+div#quadro6 p{
+    margin-left: 0px;
+}
+
+}
